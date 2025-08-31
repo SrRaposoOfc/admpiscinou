@@ -1,0 +1,38 @@
+[
+  {
+    "username": "admin",
+    "password": "raposofoda",
+    "role": "super_admin",
+    "permissions": {
+      "manageUsers": true,
+      "manageAdmins": true,
+      "viewReports": true,
+      "deleteUsers": true,
+      "updateUserStatus": true,
+      "viewStats": true
+    },
+    "profile": {
+      "fullName": "Administrador Principal",
+      "email": "admin@piscinou.com",
+      "phone": "(11) 99999-9999"
+    }
+  },
+  {
+    "username": "gerente",
+    "password": "gerente123",
+    "role": "manager",
+    "permissions": {
+      "manageUsers": true,
+      "manageAdmins": false,
+      "viewReports": true,
+      "deleteUsers": true,
+      "updateUserStatus": true,
+      "viewStats": true
+    },
+    "profile": {
+      "fullName": "Gerente de Operações",
+      "email": "gerente@piscinou.com",
+      "phone": "(11) 88888-8888"
+    }
+  }
+]
