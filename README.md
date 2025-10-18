@@ -229,7 +229,3 @@ O sistema **NÃO mostra usuários de exemplo** quando offline:
 1. Configure o arquivo `.env`
 2. Execute `npm run seed-users`
 3. Execute `npm run backend`
-
----
-
-**Desenvolvido com ❤️ para o Piscinou**
